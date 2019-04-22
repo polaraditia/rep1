@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="HelloAms.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="HelloAms.About" %>
 
 <!DOCTYPE html>
 
@@ -10,9 +10,9 @@
     <form id="form1" runat="server">
     <div>
         <header>
-            <h1>Home</h1>
+            <h1>About</h1>
         </header>
-        <asp:Label ID="banner" runat="server"></asp:Label>
+        <span>Hehe</span>
         <nav>
             <a href="Index.aspx">Home</a>
             <a href="About.aspx">About</a>
